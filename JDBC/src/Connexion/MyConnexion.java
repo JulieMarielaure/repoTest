@@ -48,7 +48,6 @@ public abstract class MyConnexion {
 
 	public static DefaultTableModel getDataSelect() {
 
-		System.out.println("methode1");
 		int id_login = 1;
 		DefaultTableModel dm = new DefaultTableModel();
 		dm.addColumn("id_login");
